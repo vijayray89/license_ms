@@ -94,7 +94,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `role_id`, `created_at`, `updated_at`) VALUES
 (1, 'vijay lab', '$2y$10$CdP8SLUPYA1qC6bGcGU/hucdJt8ZMd9KVtnMLzOQRl79N3gM5D1Ze', 'vijay.r@healthmeterservices.in', 3, '2023-10-29 06:11:34', '2023-10-29 06:45:21'),
 (7, 'vijay', '$2y$10$D/DgLwOBq2FFgPONIXCyYOisgWxSThJwe2FtmyvCZ2w18Ikh9Q6De', 'vijay@gmail.com', 1, '2023-10-29 06:44:52', '2023-10-29 06:44:52'),
-(8, 'vijay.r@healthmeterservices.in', '$2y$10$Ue8hKYNYC.HJFLJx4lqI2.r9itc4Y8GrnKnUppKsOP.5oPZKO6Omu', 'vijay.r@healthmeterservices.in', 1, '2023-11-02 09:49:01', '2023-11-02 09:49:01');
+(8, 'vijayray89@gmail.com', '$2y$10$Ue8hKYNYC.HJFLJx4lqI2.r9itc4Y8GrnKnUppKsOP.5oPZKO6Omu', 'vijay.r@healthmeterservices.in', 1, '2023-11-02 09:49:01', '2023-11-02 09:49:01');
 
 --
 -- Indexes for dumped tables
