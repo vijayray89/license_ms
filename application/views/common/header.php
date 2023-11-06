@@ -11,25 +11,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>License Management System</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/vendors/mdi/css/materialdesignicons.min.css" ?>">
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/vendors/flag-icon-css/css/flag-icon.min.css" ?>">
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/vendors/css/vendor.bundle.base.css" ?> ">
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/vendors/mdi/css/materialdesignicons.min.css" ?>">
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/vendors/flag-icon-css/css/flag-icon.min.css" ?>">
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/vendors/css/vendor.bundle.base.css" ?> ">
     <!-- endinject -->
     <!-- Plugin css for this page -->
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/vendors/jquery-bar-rating/css-stars.css" ?>" />
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/vendors/font-awesome/css/font-awesome.min.css" ?>" />
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/vendors/jquery-bar-rating/css-stars.css" ?>" />
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/vendors/font-awesome/css/font-awesome.min.css" ?>" />
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/css/demo_2/style.css" ?>" />
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/css/colors.min.css" ?>" />
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/css/style.min.css" ?>" />
-    <link rel="stylesheet" href="<?php echo BASE_URL . "CHF/assets/css/bootstrap-extended.min.css" ?>" />
-    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . "CHF/assets/css/bootstrap.min.css" ?>">
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/css/demo_2/style.css" ?>" />
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/css/colors.min.css" ?>" />
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/css/style.min.css" ?>" />
+    <link rel="stylesheet" href="<?php echo BASE_URL . "license_ms/assets/css/bootstrap-extended.min.css" ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . "license_ms/assets/css/bootstrap.min.css" ?>">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="<?php echo BASE_URL . "CHF/assets/images/favicon.png" ?>" />
+    <link rel="shortcut icon" href="<?php echo BASE_URL . "license_ms/assets/images/favicon.png" ?>" />
     <style>
     .main-panel .content-wrapper .color-card-wrapper .card-body {
         position: relative;
@@ -64,12 +64,12 @@ if($this->session->userdata('logged_in')==1){
             <div class="container">
                 <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                     <a class="navbar-brand brand-logo" href="<?= BASE_URL ?>">
-                        <!-- <img src="<?php echo BASE_URL . "CHF/assets/images/logo.svg" ?>" alt="logo" /> -->
+                        <!-- <img src="<?php echo BASE_URL . "license_ms/assets/images/logo.svg" ?>" alt="logo" /> -->
                         License Management System
                         <!-- <span class="font-12 d-block font-weight-light">Making Bachpan Strong </span> -->
                     </a>
                     <a class="navbar-brand brand-logo-mini" href="<?php echo BASE_URL ?>"><img
-                            src="<?php echo BASE_URL . "CHF/assets/images/logo-mini.svg" ?>" alt="logo" /></a>
+                            src="<?php echo BASE_URL . "license_ms/assets/images/logo-mini.svg" ?>" alt="logo" /></a>
                 </div>
                 <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
                     
@@ -78,7 +78,7 @@ if($this->session->userdata('logged_in')==1){
                             <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 <div class="nav-profile-img">
-                                    <img src="<?= BASE_URL . "CHF/assets/images/faces/face1.jpg" ?>" alt="image" />
+                                    <img src="<?= BASE_URL . "license_ms/assets/images/faces/face1.jpg" ?>" alt="image" />
                                 </div>
                                 <div class="nav-profile-text">
                                     <p class="text-black font-weight-semibold m-0"> Testing Vijay </p>
